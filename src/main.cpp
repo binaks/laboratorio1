@@ -1,4 +1,5 @@
 #include <iostream>
+#include "../include/calcarea.h"
 
 using std::cin;
 using std::cout;
@@ -25,8 +26,13 @@ int main() {
 
 		cin >> opcao;
 
-		if (opcao > 8 || opcao < 0) {
-			cout << "Opção inválida\n" << endl;
+		switch (opcao) {
+			case 1:
+				CalcAreaTriangulo();
+				break;
+			default:
+				cout << "Opção inválida\n" << endl;
+				break;
 		}
 
 	} while (opcao != 0);
