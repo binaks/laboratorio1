@@ -1,4 +1,4 @@
-# LP1
+# Laboratório 1
 
 "A tarefa principal a ser realizada neste exercício é a implementação de um programa que calcula as
 medidas de diversas figuras geométricas planas e espaciais. O programa em execução deve
