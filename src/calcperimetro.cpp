@@ -16,6 +16,18 @@ void CalcPeriTriangulo () {
 void CalcPeriRetangulo () {
 	float base;
 	float altura;
-	
+
 	cout << "Perímetro do retângulo: " << PeriRetangulo(base, altura) << endl;
+}
+
+void CalcPeriQuadrado () {
+	float lado;
+
+	cout << "Perímetro do quadrado: " << PeriQuadrado(lado) << endl;
+}
+
+void CalcPeriCirculo () {
+	float raio;
+
+	cout << "Perímetro do círculo: " << PeriCirculo(raio) << endl;
 }
