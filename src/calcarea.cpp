@@ -22,12 +22,12 @@ void CalcAreaRetangulo () {
 	float base;
 	float altura;
 
-	cout << "Digite o tamanho da base do retangulo: ";
+	cout << "Digite o tamanho da base do retângulo: ";
 	cin >> base;
-	cout << "Digite o tamanho da altura do retangulo: ";
+	cout << "Digite o tamanho da altura do retângulo: ";
 	cin >> altura;
 
-	cout << "Área do retangulo: " << AreaRetangulo(base, altura) << std::endl;
+	cout << "Área do retângulo: " << AreaRetangulo(base, altura) << std::endl;
 
 
 }
@@ -50,7 +50,7 @@ void CalcAreaCirculo () {
 	cout << "Digite o tamanho do raio: ";
 	cin >> raio;
 
-	cout << "Área do circulo: " << AreaCirculo(raio) << std::endl;
+	cout << "Área do círculo: " << AreaCirculo(raio) << std::endl;
 
 
 }
@@ -64,7 +64,7 @@ void CalcAreaPiramide () {
 	cout << "Digite o tamanho da altura da piramide: ";
 	cin >> altura;
 
-	cout << "Área do piramide: " << AreaPiramide(base, altura) << std::endl;
+	cout << "Área da piramide: " << AreaPiramide(base, altura) << std::endl;
 
 
 }
@@ -86,14 +86,14 @@ void CalcAreaParalelepipedo () {
 	float altura;
 	float largura;
 
-	cout << "Digite o tamanho da base do paralelepipedo: ";
+	cout << "Digite o tamanho da base do paralelepípedo: ";
 	cin >> base;
-	cout << "Digite o tamanho da altura do paralelepipedo: ";
+	cout << "Digite o tamanho da altura do paralelepípedo: ";
 	cin >> altura;
-	cout << "Digite o tamanho da largura do paralelepipedo: ";
+	cout << "Digite o tamanho da largura do paralelepípedo: ";
 	cin >> largura;
 
-	cout << "Área do paralelepipedo: " << AreaParalelepipedo(base, altura, largura) << std::endl;
+	cout << "Área do paralelepípedo: " << AreaParalelepipedo(base, altura, largura) << std::endl;
 
 
 }
@@ -101,10 +101,10 @@ void CalcAreaParalelepipedo () {
 void CalcAreaEsfera () {
 	float raio;
 
-	cout << "Digite o tamanho do esfera: ";
+	cout << "Digite o tamanho do raio da esfera: ";
 	cin >> raio;
 
-	cout << "Área do esfera: " << AreaEsfera(raio) << std::endl;
+	cout << "Área da esfera: " << AreaEsfera(raio) << std::endl;
 
 
 }
