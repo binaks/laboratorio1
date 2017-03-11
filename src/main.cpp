@@ -29,27 +29,35 @@ int main() {
 		switch (opcao) {
 			case 1:
 				CalcAreaTriangulo();
+				CalcPeriTriangulo();
 				break;
 			case 2:
 				CalcAreaRetangulo();
+				CalcPeriRetangulo();
 				break;
 			case 3:
 				CalcAreaQuadrado();
+				CalcPeriQuadrado();
 				break;
 			case 4:
 				CalcAreaCirculo();
+				CalcPeriCirculo();
 				break;
 			case 5:
 				CalcAreaPiramide();
+				CalcPeriPiramide();
 				break;
 			case 6:
 				CalcAreaCubo();
+				CalcPeriCubo();
 				break;
 			case 7:
 				CalcAreaParalelepipedo();
+				CalcPeriParalelepipedo();
 				break;
 			case 8:
 				CalcAreaEsfera();
+				CalcPeriEsfera();
 				break;
 			default:
 				cout << "Opção inválida\n" << endl;

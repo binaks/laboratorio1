@@ -2,9 +2,6 @@
 #include <cmath>
 #include "../include/area.h"
 
-using std::cin;
-using std::cout;
-
 float AreaTriangulo (float base, float altura) {
 	return (base * altura)/2.0;
 }
@@ -22,7 +19,6 @@ float AreaCirculo (float raio) {
 }
 
 float AreaPiramide (float base, float altura) {
-
 	float area_base = pow(base,2);
 	float area_lateral = 4* ( (base*altura)/2);
 
@@ -34,7 +30,6 @@ float AreaCubo (float lado) {
 }
 
 float AreaParalelepipedo (float base, float altura, float largura) {
-
 	return ( (2*(base*altura) ) + (2*(base*largura) ) + (2*(altura*largura) ) );
 }
 

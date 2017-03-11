@@ -3,6 +3,7 @@
 
 using std::cin;
 using std::cout;
+using std::endl;
 
 void CalcPeriTriangulo (float lado) {
 	cout << "Perímetro do triângulo: " << PeriTriangulo(lado) << std::endl;
