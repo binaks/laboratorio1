@@ -2,6 +2,7 @@
 #define CALCVOLUME_H
 
 #include <iostream>
+#include "../include/volume.h"
 
 void CalcVolPiramide ();
 

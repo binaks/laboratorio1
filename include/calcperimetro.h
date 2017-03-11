@@ -2,6 +2,7 @@
 #define CALCPERIMETRO_H
 
 #include <iostream>
+#include "../include/perimetro.h"
 
 void CalcPeriTriangulo ();
 
