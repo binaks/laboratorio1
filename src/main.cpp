@@ -1,5 +1,7 @@
 #include <iostream>
 #include "../include/calcarea.h"
+#include "../include/calcperimetro.h"
+#include "../include/calcvolume.h"
 
 using std::cin;
 using std::cout;
