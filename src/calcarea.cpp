@@ -1,6 +1,5 @@
 #include <iostream>
 #include "../include/calcarea.h"
-#include "../include/area.h"
 
 using std::cin;
 using std::cout;
