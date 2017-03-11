@@ -12,7 +12,7 @@ int main() {
 
 	do {
 
-		cout << "Calculadora de Geometria Plana e Espacial" << endl;
+		cout << "\nCalculadora de Geometria Plana e Espacial" << endl;
 		cout << "(1) Triangulo equilatero" << endl;
 		cout << "(2) Retangulo" << endl;
 		cout << "(3) Quadrado" << endl;

@@ -3,6 +3,6 @@
 
 #include <iostream>
 
-int AreaTriangulo (float base, float altura);
+float AreaTriangulo (float base, float altura);
 
 #endif
