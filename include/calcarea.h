@@ -5,5 +5,6 @@
 #include "../include/area.h"
 
 void CalcAreaTriangulo ();
+void CalcAreaRetangulo ();
 
 #endif

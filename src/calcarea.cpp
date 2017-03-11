@@ -17,3 +17,18 @@ void CalcAreaTriangulo () {
 
 
 }
+
+void CalcAreaRetangulo () {
+	float base;
+	float altura;
+
+	cout << "Digite o tamanho da base do retangulo: ";
+	cin >> base;
+	cout << "Digite o tamanho da altura do retangulo: ";
+	cin >> altura;
+
+	cout << "Área do retangulo: " << AreaRetangulo(base, altura) << std::endl;
+
+
+}
+
