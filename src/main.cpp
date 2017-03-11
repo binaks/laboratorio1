@@ -30,6 +30,27 @@ int main() {
 			case 1:
 				CalcAreaTriangulo();
 				break;
+			case 2:
+				CalcAreaRetangulo();
+				break;
+			case 3:
+				CalcAreaQuadrado();
+				break;
+			case 4:
+				CalcAreaCirculo();
+				break;
+			case 5:
+				CalcAreaPiramide();
+				break;
+			case 6:
+				CalcAreaCubo();
+				break;
+			case 7:
+				CalcAreaParalelepipedo();
+				break;
+			case 8:
+				CalcAreaEsfera();
+				break;
 			default:
 				cout << "Opção inválida\n" << endl;
 				break;

@@ -24,7 +24,7 @@ float AreaCirculo (float raio) {
 float AreaPiramide (float base, float altura) {
 
 	float area_base = pow(base,2);
-	float area_lateral = 4* (base*altura);
+	float area_lateral = 4* ( (base*altura)/2);
 
 	return (area_base + area_lateral);
 }
