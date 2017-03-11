@@ -45,19 +45,19 @@ int main() {
 				break;
 			case 5:
 				CalcAreaPiramide();
-				CalcPeriPiramide();
+				CalcVolPiramide();
 				break;
 			case 6:
 				CalcAreaCubo();
-				CalcPeriCubo();
+				CalcVolCubo();
 				break;
 			case 7:
 				CalcAreaParalelepipedo();
-				CalcPeriParalelepipedo();
+				CalcVolParalelepipedo();
 				break;
 			case 8:
 				CalcAreaEsfera();
-				CalcPeriEsfera();
+				CalcVolEsfera();
 				break;
 			default:
 				cout << "Opção inválida\n" << endl;
