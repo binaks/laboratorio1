@@ -1,3 +1,12 @@
+/**
+ * @file main.cpp
+ * @brief Programa que calcula área, perímetro e volume de figuras geométricas
+ * @author Bianca Rodrigues Cesarino
+ * @author Renato Marinheiro
+ * @since 09/03/2017
+ * @date 11/03/2017
+ */
+
 #include <iostream>
 #include "../include/calcarea.h"
 #include "../include/calcperimetro.h"
