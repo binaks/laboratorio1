@@ -29,44 +29,44 @@ int main() {
 		cin >> opcao;
 
 		switch (opcao) {
-			case 1:
+			case 1: /**< Área e perímetro do triângulo */
 				CalcAreaTriangulo();
 				CalcPeriTriangulo();
 				break;
-			case 2:
+			case 2: /**< Área e perímetro do retângulo */
 				CalcAreaRetangulo();
 				CalcPeriRetangulo();
 				break;
-			case 3:
+			case 3: /**< Área e perímetro do quadrado */
 				CalcAreaQuadrado();
 				CalcPeriQuadrado();
 				break;
-			case 4:
+			case 4: /**< Área e perímetro do círculo */
 				CalcAreaCirculo();
 				CalcPeriCirculo();
 				break;
-			case 5:
+			case 5: /**< Área e volume da pirâmide */
 				CalcAreaPiramide();
 				CalcVolPiramide();
 				break;
-			case 6:
+			case 6: /**< Área e volume do cubo */
 				CalcAreaCubo();
 				CalcVolCubo();
 				break;
-			case 7:
+			case 7: /**< Área e volume do paralelepípedo */
 				CalcAreaParalelepipedo();
 				CalcVolParalelepipedo();
 				break;
-			case 8:
+			case 8: /**< Área e volume da esfera */
 				CalcAreaEsfera();
 				CalcVolEsfera();
 				break;
-			default:
+			default: /**< Caso o valor digitado seja diferente das opções */
 				cout << "Opção inválida\n" << endl;
 				break;
 		}
 
-	} while (opcao != 0);
+	} while (opcao != 0); /**< O programa deve reiniciar até que o usuário entre '0' */
 
 	return 0;
 }
