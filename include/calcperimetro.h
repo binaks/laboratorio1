@@ -4,24 +4,29 @@
 #include <iostream>
 #include "../include/perimetro.h"
 
-void CalcPeriTriangulo ();
+void CalcPeriTriangulo (float lado);
 /**
- * @brief Recebe dados e chama PeriTriangulo()
+ * @brief Chama o cálculo do perímetro do triângulo e mostra seu resultado
+ * @param lado Lado do triângulo
  */
 
-void CalcPeriRetangulo ();
+void CalcPeriRetangulo (float base, float altura);
 /**
- * @brief Recebe dados e chama PeriRetangulo()
+ * @brief Chama o cálculo do perímetro do retângulo e mostra seu resultado
+ * @param base Base do retângulo
+ * @param altura Altura do retângulo
  */
 
-void CalcPeriQuadrado ();
+void CalcPeriQuadrado (float lado);
 /**
- * @brief Recebe dados e chama PeriQuadrado()
+ * @brief Chama o cálculo do perímetro do quadrado e mostra seu resultado
+ * @param lado Lado do quadrado
  */
 
-void CalcPeriCirculo ();
+void CalcPeriCirculo (float raio);
 /**
- * @brief Recebe dados e chama PeriCírculo()
+ * @brief Chama o cálculo do perímetro do círculo e mostra seu resultado
+ * @param raio Raio do círculo
  */
 
 #endif
