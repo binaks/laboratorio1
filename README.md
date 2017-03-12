@@ -8,3 +8,8 @@ resultado, o programa deve exibir as respectivas medidas (área, perímetro, vol
 escolhida."
 
 "O objetivo deste exercício é realizar a implementação de um programa na linguagem de programação C++ utilizando ferramentas de suporte ao programador, tais como o compilador e um sistema de controle de versão, e aplicando modularização e outras boas práticas de programação."
+
+ps.: tem q ter uma pasta bin e uma pasta build senão dá erro de compilaçao
+
+
+Autores: Bianca Rodrigues Cesarino e "Kite" Renato Marinheiro
