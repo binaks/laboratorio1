@@ -14,7 +14,7 @@ DOC_DIR=./doc
 TEST_DIR=./test
 
 # Opções de compilação
-CPPFLAGS = -O0 -g -Wall -pedantic
+CPPFLAGS = -O0 -g -Wall -ansi -pedantic
 
 # Garante que os alvos desta lista não sejam confundidos com arquivos do mesmo nome
 .PHONY: all clean doxy cleanexec
