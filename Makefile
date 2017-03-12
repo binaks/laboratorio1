@@ -1,5 +1,5 @@
 # Comandos do sistema operacional
-RM = rm -rf
+RM = rm -f
 
 # Compilador
 CC=g++
@@ -9,29 +9,45 @@ LIB_DIR=./lib
 INC_DIR=./include
 SRC_DIR=./src
 OBJ_DIR=./build
-BIN_DIR=./doc
+BIN_DIR=./bin
 TEST_DIR=./test
 
 # Opções de compilação
-CFLAGS = -Wall -pedantic -ansi -std=c++11 -I. -I$(INC_DIR)
+CPPFLAGS = -O0 -g -Wall -pedantic
 
 # Garante que os alvos desta lista não sejam confundidos com arquivos do mesmo nome
 .PHONY: all clean distclean doxy
 
 # Define o alvo (target) para a compilação completa
-# Define o alvo geometrica como dependência
+# Define o alvo calculadora como dependência
 # Ao final da compilação, remove os arquivos objeto
-all: geometrica
+PROG = calculadora
 
-debug: CFLAGS += -g -O0
-debug: geometrica
+OBJ = ./build/main.o ./build/area.o ./build/calcarea.o ./build/perimetro.o ./build/calcperimetro.o ./build/volume.o ./build/calcvolume.o  
 
-# Alvo (target) para a construção do executável geometrica
-# Define os arquivos main.o, calcarea.o, calcvol.o, calcperimetro.o, area.o, volume.o e perimetro.o como dependências
-geometrica: $(OBJ_DIR)/main.o $(OBJ_DIR)/calcarea.o $(OBJ_DIR)/calcvolume.o $(OBJ_DIR)/calcperimetro.o $(OBJ_DIR)/area.o $(OBJ_DIR)/volume.o $(OBJ_DIR)/perimetro.o
-		@echo "============="
-		@echo "Ligando o alvo $@"
-		@echo "============="
-		$(CC) $(CFLAGS) -o $(BIN_DIR)/$@ $^
-		@echo "+++ [Executavel geometrica criado em $(BIN_DIR)] +++"
-		@echo "============="
+$(PROG) : $(OBJ)
+	$(CC) $(CPPFLAGS) -o $(BIN_DIR)/$(PROG) $(OBJ)
+
+$(OBJ_DIR)/main.o:
+	$(CC) $(CPPFLAGS) -c $(SRC_DIR)/main.cpp -o $@ $<
+
+$(OBJ_DIR)/calcarea.o:
+	$(CC) $(CPPFLAGS) -c $(SRC_DIR)/calcarea.cpp -o $@ $<
+
+$(OBJ_DIR)/area.o:
+	$(CC) $(CPPFLAGS) -c $(SRC_DIR)/area.cpp -o $@ $<
+
+$(OBJ_DIR)/perimetro.o:
+	$(CC) $(CPPFLAGS) -c $(SRC_DIR)/perimetro.cpp -o $@ $<
+
+$(OBJ_DIR)/calcperimetro.o:
+	$(CC) $(CPPFLAGS) -c $(SRC_DIR)/calcperimetro.cpp -o $@ $<
+
+$(OBJ_DIR)/volume.o:
+	$(CC) $(CPPFLAGS) -c $(SRC_DIR)/volume.cpp -o $@ $<
+
+$(OBJ_DIR)/calcvolume.o:
+	$(CC) $(CPPFLAGS) -c $(SRC_DIR)/calcvolume.cpp -o $@ $<
+	 
+clean:
+	$(RM) $(OBJ_DIR)/* 

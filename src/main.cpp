@@ -46,11 +46,9 @@ int main() {
 				cin >> x;
 				cout << "Digite o tamanho da altura do triângulo: ";
 				cin >> y;
-				cout << "Digite o tamanho do lado do triângulo: ";
-				cin >> z;
 
 				CalcAreaTriangulo(x, y);
-				CalcPeriTriangulo(z);
+				CalcPeriTriangulo(x);
 
 				break;
 
@@ -123,6 +121,12 @@ int main() {
 				CalcAreaEsfera(x);
 				CalcVolEsfera(x);
 
+				break;
+
+
+			case 0: /**< Saida do programa */
+				cout << "Flw galado" << endl;
+				
 				break;
 
 			default: /**< Caso o valor digitado seja diferente das opções */
