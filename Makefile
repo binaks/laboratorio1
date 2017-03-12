@@ -28,7 +28,7 @@ debug: geometrica
 
 # Alvo (target) para a construção do executável geometrica
 # Define os arquivos main.o, calcarea.o, calcvol.o, calcperimetro.o, area.o, volume.o e perimetro.o como dependências
-geometrica: $(OBJ_DIR)/main.o $(OBJ_DIR)/calcarea.o $(OBJ_DIR)/calcvol.o $(OBJ_DIR)/alcperimetro.o $(OBJ_DIR)/area.o $(OBJ_DIR)/volume.o $(OBJ_DIR)/perimetro.o
+geometrica: $(OBJ_DIR)/main.o $(OBJ_DIR)/calcarea.o $(OBJ_DIR)/calcvolume.o $(OBJ_DIR)/calcperimetro.o $(OBJ_DIR)/area.o $(OBJ_DIR)/volume.o $(OBJ_DIR)/perimetro.o
 		@echo "============="
 		@echo "Ligando o alvo $@"
 		@echo "============="

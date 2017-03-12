@@ -66,7 +66,7 @@ int main() {
 				break;
 
 			case 3: /**< Área e perímetro do quadrado */
-				cout << "Digite o tamanho do lado do quadrado ";
+				cout << "Digite o tamanho do lado do quadrado: ";
 				cin >> x;
 
 				CalcAreaQuadrado(x);
@@ -95,7 +95,7 @@ int main() {
 				break;
 
 			case 6: /**< Área e volume do cubo */
-				cout << "Digite o tamanho da aresta do cubo ";
+				cout << "Digite o tamanho da aresta do cubo: ";
 				cin >> x;
 
 				CalcAreaCubo(x);
