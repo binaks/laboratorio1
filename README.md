@@ -10,8 +10,11 @@ escolhida."
 "O objetivo deste exercício é realizar a implementação de um programa na linguagem de programação C++ utilizando ferramentas de suporte ao programador, tais como o compilador e um sistema de controle de versão, e aplicando modularização e outras boas práticas de programação."
 
 Para compilar, é necessária a criação das pastas "build" e "bin" dentro do repositório:
+
 $ mkdir build bin
+
 Então:
+
 $ make
 
 Autores: Bianca Rodrigues Cesarino e "Kite" Renato Marinheiro
