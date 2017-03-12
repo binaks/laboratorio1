@@ -17,7 +17,4 @@ Então:
 
 $ make
 
-
-
-
 Autores: Bianca Rodrigues Cesarino e "Kite" Renato Marinheiro
