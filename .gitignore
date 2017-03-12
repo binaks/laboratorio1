@@ -1,6 +1,6 @@
 # Pasta build
 build/*
 
-#Pasta executaveis e test
+# Pasta executaveis e test
 bin/*
 test/*
