@@ -84,35 +84,35 @@ int main() {
 				break;
 
 			case 5: /**< Área e volume da pirâmide */
-				cout << "Digite o tamanho da base da piramide: ";
+				cout << "Digite o tamanho da base da pirâmide: ";
 				cin >> x;
-				cout << "Digite o tamanho da altura da piramide: ";
+				cout << "Digite o tamanho da altura da pirâmide: ";
 				cin >> y;
 
 				CalcAreaPiramide(x, y);
-				CalcVolPiramide();
+				CalcVolPiramide(x, y);
 
 				break;
 
 			case 6: /**< Área e volume do cubo */
-				cout << "Digite o tamanho do lado do cubo ";
+				cout << "Digite o tamanho da aresta do cubo ";
 				cin >> x;
 
 				CalcAreaCubo(x);
-				CalcVolCubo();
+				CalcVolCubo(x);
 
 				break;
 
 			case 7: /**< Área e volume do paralelepípedo */
-				cout << "Digite o tamanho da base do paralelepípedo: ";
+				cout << "Digite o tamanho da aresta 1 do paralelepípedo: ";
 				cin >> x;
-				cout << "Digite o tamanho da altura do paralelepípedo: ";
+				cout << "Digite o tamanho da aresta 2 do paralelepípedo: ";
 				cin >> y;
-				cout << "Digite o tamanho da largura do paralelepípedo: ";
+				cout << "Digite o tamanho da aresta 3 do paralelepípedo: ";
 				cin >> z;
 
 				CalcAreaParalelepipedo(x, y, z);
-				CalcVolParalelepipedo();
+				CalcVolParalelepipedo(x, y, z);
 
 				break;
 

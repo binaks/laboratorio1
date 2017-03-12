@@ -25,11 +25,11 @@ void CalcAreaPiramide (float base, float altura) {
 }
 
 void CalcAreaCubo (float lado) {
-	cout << "Área do cubo: " << AreaCubo(lado) << endl;
+	cout << "Área do cubo: " << AreaCubo(aresta) << endl;
 }
 
-void CalcAreaParalelepipedo (float base, float altura, float largura) {
-	cout << "Área do paralelepípedo: " << AreaParalelepipedo(base, altura, largura) << endl;
+void CalcAreaParalelepipedo (float aresta1, float aresta2, float aresta3) {
+	cout << "Área do paralelepípedo: " << AreaParalelepipedo(aresta1, aresta2, aresta3) << endl;
 }
 
 void CalcAreaEsfera (float raio) {

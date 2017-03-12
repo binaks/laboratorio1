@@ -12,7 +12,9 @@
 #include <cmath>
 #include "../include/volume.h"
 
-float VolPiramide (float area_base, float altura) {
+float VolPiramide (float base, float altura) {
+	float area_base = pow(base,2);
+
 	return ((area_base * altura)/3);
 }
 /**

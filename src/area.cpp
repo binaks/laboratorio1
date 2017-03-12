@@ -65,23 +65,23 @@ float AreaPiramide (float base, float altura) {
  * @return Área da pirâmide
  */
 
-float AreaCubo (float lado) {
-	return ( (6 * pow(lado,2) ) );
+float AreaCubo (float aresta) {
+	return ( (6 * pow(aresta,2) ) );
 }
 /**
  * @brief Calcula a área do cubo
- * @param lado Lado do cubo
+ * @param aresta Aresta do cubo
  * @return Área do cubo
  */
 
-float AreaParalelepipedo (float base, float altura, float largura) {
-	return ( (2*(base*altura) ) + (2*(base*largura) ) + (2*(altura*largura) ) );
+float AreaParalelepipedo (float aresta1, float aresta2, float aresta3) {
+	return ( (2*(aresta1*aresta2) ) + (2*(aresta1*aresta3) ) + (2*(aresta2*aresta3) ) );
 }
 /**
  * @brief Calcula a área do paralelepípedo
- * @param base Base do paralelepípedo
- * @param altura Altura do paralelepípedo
- * @param largura Largura do paralelepípedo
+ * @param aresta1 Aresta 1 do paralelepípedo
+ * @param aresta2 Aresta 2 do paralelepípedo
+ * @param aresta3 Aresta 3 do paralelepípedo
  * @return Área do paralelepípedo
  */
 
