@@ -6,42 +6,56 @@
 
 void CalcAreaTriangulo ();
 /**
- * @brief Recebe dados e chama AreaTriangulo()
+ * @brief Chama o cálculo da área do triângulo e mostra seu resultado
+ * @param base Base do triângulo
+ * @param altura Altura do triângulo
  */
 
 void CalcAreaRetangulo ();
 /**
- * @brief Recebe dados e chama AreaRetangulo()
+ * @brief Chama o cálculo da área do retângulo e mostra seu resultado
+ * @param base Base do retângulo
+ * @param altura Altura do retângulo
  */
 
 void CalcAreaQuadrado ();
 /**
- * @brief Recebe dados e chama AreaQuadrado()
+ * @brief Chama o cálculo da área do quadrado e mostra seu resultado
+ * @param lado Lado do quadrado
  */
 
 void CalcAreaCirculo ();
 /**
- * @brief Recebe dados e chama AreaCirculo()
+ * @brief Chama o cálculo da área do círculo e mostra seu resultado
+ * @param raio Raio do círculo
  */
 
 void CalcAreaPiramide ();
 /**
- * @brief Recebe dados e chama AreaPiramide()
+ * @brief Chama o cálculo da área da pirâmide e mostra seu resultado
+ * @param base Base da pirâmide
+ * @param altura Altura da pirâmide
  */
 
 void CalcAreaCubo ();
 /**
- * @brief Recebe dados e chama AreaCubo()
+ * @brief Chama o cálculo da área do cubo e mostra seu resultado
+ * @param lado Lado do cubo
  */
+
 
 void CalcAreaParalelepipedo ();
 /**
- * @brief Recebe dados e chama AreaParalelepipedo()
+ * @brief Chama o cálculo da área do paralelepípedo e mostra seu resultado
+ * @param aresta1 Aresta 1 do paralelepípedo
+ * @param aresta2 Aresta 2 do paralelepípedo
+ * @param aresta3 Aresta 3 do paralelepípedo
  */
 
 void CalcAreaEsfera ();
 /**
- * @brief Recebe dados e chama AreaEsfera()
+ * @brief Chama o cálculo da área da esfera e mostra seu resultado
+ * @param raio Raio da esfera
  */
 
 #endif

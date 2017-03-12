@@ -127,6 +127,7 @@ int main() {
 
 			default: /**< Caso o valor digitado seja diferente das opções */
 				cout << "Opção inválida\n" << endl;
+				
 				break;
 		}
 
