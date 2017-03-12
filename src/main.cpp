@@ -22,6 +22,8 @@ int main() {
 
 	int opcao;
 
+	float x, y, z; /**< Variáveis para receber dados que serão utilizados pelas funções*/
+
 	do {
 
 		cout << "\nCalculadora de Geometria Plana e Espacial" << endl;
@@ -40,37 +42,89 @@ int main() {
 
 		switch (opcao) {
 			case 1: /**< Área e perímetro do triângulo */
-				CalcAreaTriangulo();
-				CalcPeriTriangulo();
+				cout << "Digite o tamanho da base do triângulo: ";
+				cin >> x;
+				cout << "Digite o tamanho da altura do triângulo: ";
+				cin >> y;
+				cout << "Digite o tamanho do lado do triângulo: ";
+				cin >> z;
+
+				CalcAreaTriangulo(x, y);
+				CalcPeriTriangulo(z);
+
 				break;
+
 			case 2: /**< Área e perímetro do retângulo */
-				CalcAreaRetangulo();
-				CalcPeriRetangulo();
+				cout << "Digite o tamanho da base do retângulo: ";
+				cin >> x;
+				cout << "Digite o tamanho da altura do retângulo: ";
+				cin >> y;
+
+				CalcAreaRetangulo(x, y);
+				CalcPeriRetangulo(x, y);
+
 				break;
+
 			case 3: /**< Área e perímetro do quadrado */
-				CalcAreaQuadrado();
-				CalcPeriQuadrado();
+				cout << "Digite o tamanho do lado do quadrado ";
+				cin >> x;
+
+				CalcAreaQuadrado(x);
+				CalcPeriQuadrado(x);
+
 				break;
+
 			case 4: /**< Área e perímetro do círculo */
-				CalcAreaCirculo();
-				CalcPeriCirculo();
+				cout << "Digite o tamanho do raio: ";
+				cin >> x;
+
+				CalcAreaCirculo(x);
+				CalcPeriCirculo(x);
+
 				break;
+
 			case 5: /**< Área e volume da pirâmide */
-				CalcAreaPiramide();
+				cout << "Digite o tamanho da base da piramide: ";
+				cin >> x;
+				cout << "Digite o tamanho da altura da piramide: ";
+				cin >> y;
+
+				CalcAreaPiramide(x, y);
 				CalcVolPiramide();
+
 				break;
+
 			case 6: /**< Área e volume do cubo */
-				CalcAreaCubo();
+				cout << "Digite o tamanho do lado do cubo ";
+				cin >> x;
+
+				CalcAreaCubo(x);
 				CalcVolCubo();
+
 				break;
+
 			case 7: /**< Área e volume do paralelepípedo */
-				CalcAreaParalelepipedo();
+				cout << "Digite o tamanho da base do paralelepípedo: ";
+				cin >> x;
+				cout << "Digite o tamanho da altura do paralelepípedo: ";
+				cin >> y;
+				cout << "Digite o tamanho da largura do paralelepípedo: ";
+				cin >> z;
+
+				CalcAreaParalelepipedo(x, y, z);
 				CalcVolParalelepipedo();
+
 				break;
+
 			case 8: /**< Área e volume da esfera */
-				CalcAreaEsfera();
-				CalcVolEsfera();
+				cout << "Digite o tamanho do raio da esfera: ";
+				cin >> x;
+
+				CalcAreaEsfera(x);
+				CalcVolEsfera(x);
+
 				break;
+
 			default: /**< Caso o valor digitado seja diferente das opções */
 				cout << "Opção inválida\n" << endl;
 				break;

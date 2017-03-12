@@ -1,15 +1,10 @@
 #include <iostream>
 #include "../include/calcperimetro.h"
 
-using std::cin;
 using std::cout;
 using std::endl;
 
-void CalcPeriTriangulo () {
-	float lado;
-
-	cout << "Digite o tamanho do lado do triângulo: " << endl;
-	cin >> lado;
+void CalcPeriTriangulo (float lado) {
 	cout << "Perímetro do triângulo: " << PeriTriangulo(lado) << endl;
 }
 
