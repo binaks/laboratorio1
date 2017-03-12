@@ -4,24 +4,32 @@
 #include <iostream>
 #include "../include/volume.h"
 
-void CalcVolPiramide ();
+void CalcVolPiramide (float base, float altura);
 /**
- * @brief Recebe dados e chama VolPiramide()
+ * @brief Chama o cálculo do volume da pirâmide e mostra seu resultado
+ * @param base Base da pirâmide
+ * @param altura Altura da pirâmide
  */
 
-void CalcVolCubo ();
+void CalcVolCubo (float aresta);
 /**
- * @brief Recebe dados e chama VolCubo()
+ * @brief Chama o cálculo do volume do cubo e mostra seu resultado
+ * @param aresta Aresta do cubo
  */
 
-void CalcVolParalelepipedo ();
+
+void CalcVolParalelepipedo (float aresta1, float aresta2, float aresta3);
 /**
- * @brief Recebe dados e chama VolParalelepípedo()
+ * @brief Chama o cálculo do volume do paralelepípedo e mostra seu resultado
+ * @param aresta1 Aresta 1 do paralelepípedo
+ * @param aresta2 Aresta 2 do paralelepípedo
+ * @param aresta3 Aresta 3 do paralelepípedo
  */
 
-void CalcVolEsfera ();
+void CalcVolEsfera (float raio);
 /**
- * @brief Recebe dados e chama VolEsfera()
+ * @brief Chama o cálculo do volume da esfera e mostra seu resultado
+ * @param raio Raio da esfera
  */
 
 #endif

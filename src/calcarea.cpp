@@ -57,12 +57,12 @@ void CalcAreaPiramide (float base, float altura) {
  * @param altura Altura da pirâmide
  */
 
-void CalcAreaCubo (float lado) {
+void CalcAreaCubo (float aresta) {
 	cout << "Área do cubo: " << AreaCubo(aresta) << endl;
 }
 /**
  * @brief Chama o cálculo da área do cubo e mostra seu resultado
- * @param lado Lado do cubo
+ * @param aresta Aresta do cubo
  */
 
 
