@@ -32,6 +32,7 @@ float AreaCirculo (float raio);
  * @param raio Raio do círculo
  * @return Área do círculo
  */
+
 float AreaPiramide (float base, float altura);
 /**
  * @brief Calcula a área da pirâmide

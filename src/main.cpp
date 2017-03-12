@@ -4,7 +4,8 @@
  * @author Bianca Rodrigues Cesarino
  * @author Renato Marinheiro
  * @since 09/03/2017
- * @date 11/03/2017
+ * @date 12/03/2017
+ * @sa https://github.com/binaks/laboratorio1
  */
 
 #include <iostream>
