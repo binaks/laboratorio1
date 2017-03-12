@@ -14,5 +14,4 @@ $ mkdir build bin
 Então:
 $ make
 
-Autores: Bianca Rodrigues Cesarino
-         "Kite" Renato Marinheiro
+Autores: Bianca Rodrigues Cesarino e "Kite" Renato Marinheiro
