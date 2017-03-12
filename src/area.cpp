@@ -22,7 +22,6 @@ float AreaTriangulo (float base, float altura) {
  * @return Área do triângulo
  */
 
-
 float AreaRetangulo (float base, float altura) {
 	return (base * altura);
 }
@@ -50,7 +49,6 @@ float AreaCirculo (float raio) {
  * @param raio Raio do círculo
  * @return Área do círculo
  */
-
 
 float AreaPiramide (float base, float altura) {
 	float area_base = pow(base,2);
@@ -84,7 +82,6 @@ float AreaParalelepipedo (float aresta1, float aresta2, float aresta3) {
  * @param aresta3 Aresta 3 do paralelepípedo
  * @return Área do paralelepípedo
  */
-
 
 float AreaEsfera (float raio) {
 	return ( (4 * 3.1415 * pow(raio,2) ) );
